@@ -26,4 +26,4 @@ certifi
 charset-normalizer
 idna
 mutagen
-flask
+Flask==3.0.0
