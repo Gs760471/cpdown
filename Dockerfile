@@ -23,5 +23,6 @@ RUN pip install --no-cache-dir --upgrade pip \
 # Now copy the rest of the project
 COPY . /app/
 
-CMD ["python", "main.py"]
+CMD gunicorn app:app & python3 main.py
+
 
