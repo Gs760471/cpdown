@@ -26,3 +26,4 @@ certifi
 charset-normalizer
 idna
 mutagen
+flask
